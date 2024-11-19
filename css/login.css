@@ -1,0 +1,71 @@
+label{
+    
+    color: rgba(255,255,255,0.8);
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 2px;
+    /* padding-left: 10px; */
+}
+body{
+    text-align: justify;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: yellow;
+     background-image: url("../css/bg.jpg");
+}
+form{
+    border:1px solid black;
+        width:100px;
+        height:100px;
+        
+        color:white;
+        border-radius: 20px;
+        box-shadow: 0px 0px 20px rgba(0,0,0,0.75);
+        background-size: cover;
+        overflow: hidden;
+        opacity: 0.9;
+}
+input,button{
+    
+    background: rgba(255,255,255,0.3);
+    height: 40px;
+    /* line-height: 40px; */
+    border-radius: 20px;
+     /* padding: 0px 20px;  */
+    border: none;
+    margin-bottom: 20px;
+    color: white;
+    
+
+   
+
+}
+.divs{
+    height: 20px;
+    
+}
+
+
+form{
+    display: block;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 500px;
+    height: 100vh;
+    backdrop-filter: brightness(40%);
+    flex-direction: column; 
+    display: flex;
+    gap: 5px;
+    background-position: center center;
+     background-repeat: no-repeat; 
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    background: url(./bg.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

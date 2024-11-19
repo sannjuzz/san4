@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            height: 100%;
+            background-image: url(../css/bg.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            color: #fff;
+        }
+        .pp {
+            padding: 50px;
+            color: red;
+            text-decoration: none;
+            transform: scale(1.04);
+            transition: transform 0.3s ease, color 0.3s ease; /* Added transition */
+        }
+        .pp:hover {
+            color: darkred; /* Change color on hover */
+            transform: scale(1.1); /* Slightly scale up on hover */
+        }
+        nav {
+            background-color: antiquewhite;
+            padding: 5px;
+            width: 100%;
+            text-align: right;
+            transition: background-color 0.3s ease; /* Added transition */
+        }
+        nav:hover {
+            background-color: lightgrey; /* Change background color on hover */
+        }
+        footer {
+            background-color: #333;
+            color: white; 
+            padding: 20px 0;
+            text-align: center; 
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .col-md-6 img:hover {
+            cursor:pointer;
+            transform: scale(1.04);
+            transition: transform 0.3s ease; /* Added transition */
+        }
+        #about {
+            color: white;
+            background-color: aqua;
+            padding: 30px;
+            transition: background-color 0.3s ease; /* Added transition */
+        }
+        #about:hover {
+            background-color: lightblue; /* Change background color on hover */
+        }
+        .footer-content {
+            max-width: 1200px; 
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        .footer-info p {
+            margin: 0;
+            font-size: 14px;
+        }
+        .footer-links {
+            margin: 10px 0;
+        }
+        .footer-links a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+            transition: color 0.3s ease; /* Added transition */
+        }
+        .footer-links a:hover {
+            color: lightgrey; /* Change text color on hover */
+            text-decoration: underline; 
+        }
+        .footer-social {
+            margin: 10px 0;
+        }
+        .social-link {
+            color: #fff;
+            text-decoration: none; 
+            margin: 0 10px;
+            transition: color 0.3s ease; /* Added transition */
+        }
+        .social-link:hover {
+            color: lightgrey; /* Change text color on hover */
+            text-decoration: underline; 
+        }
+    </style>
+</head>
+<body>
+    <!-- <nav>
+        <a class="pp" href="file.html">Blog</a>
+        <a class="pp" href="about.html">About</a>
+        <a class="pp" href="#">Home</a>
+        <!-- <a class="pp" href="register.html">Register</a> -->
+       <!---- <a class="pp" href="contact.html">Contact</a>
+        <button><a class="pp" href="signin.html">Sign In</a></button>
+    </nav> -->
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6 col-sm-6">
+                <img src="C:\c programming\Pagani,_GIMS_2019,_Le_Grand-Saconnex_(GIMS0023).jpg" class="img-fluid" alt="Car Image">
+            </div>
+            <div class="col-md-6 col-sm-6">
+                <h2>The Pagani Concept</h2>
+                <p>The concept was born in 2003, the year of the introduction of the Zonda S Roadster. As you may recall
+                the early 2000s were prosperous for the world of supercars. The commitment of big car manufacturers
+                have contributed to the rise of extraordinary cars like the Bugatti Veyron, Porsche Carrera GT, Ferrari
+                Enzo, Mercedes McLaren SLR.</p>
+                <p>Mercedes-AMG has created a truly unique and lightweight engine, a twin turbo with 730 HP and 1000 Nm
+                of torque that perfectly complements the car giving a feeling that has motivated our research: that of
+                the brute force of an airplane taking off.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <h2>The Koenigsegg Concept</h2>
+                <p>
+                    The first CC8S, short for
+                    Competition Coupe V8 Supercharged, was built in 2002 and delivered at theGeneva Motor Show inMarch, 2003. Its minimalistic,clean styling set it apart fromits peers and it laid thefondation for everyKoenigsegg that followed interms of aesthetics,philosophy, and functionality.The CC8S was awarded aGuinness World Record in
+                    2002 for the world's most
+                    powerful production engine.
+                    It also received a Red Dot
+                    Design Award in the same
+                    year. Six examples of the
+                    CC8S were produced in
+                    total, making it one of the
+                    rarest Koenigsegg models
+                    ever. Two of those six cars
+                    were right-hand drive.
+                </p>
+            </div>
+            <div class="col-md-6">
+                <img src="../images/koenigsegg-jesko-odin-has-been-delivered-and-its-even-more-v0-4O8i-PoyoFPbwpK5DlmtsWNOS4BsPjIYwv4fS7j6Mio.webp" class="img-fluid" alt="Car Image" width="700">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <img src="C:\c programming\project\html\Nissan_GT-R_T-spec_MY2024,_front,_2023.jpg" class="img-fluid" alt="Car Image">
+            </div>
+            <div class="col-md-6">
+                <h2>The Nissan GTR Concept</h2>
+                <p> The Nissan GT-R (Gran Turismo–Racing; model code: R35; Japanese: 日産・GT-R; Nissan GT-R) is a car built by Japanese marque Nissan since 2007. It has a 2+2 seating layout and is considered both a sports car and a grand tourer. The engine is front-mid mounted and drives all four wheels. It succeeds the Nissan Skyline GT-R, a faster variant of the Nissan Skyline. Although this model was the sixth-generation to bear the GT-R name, it is no longer part of the Skyline line-up. The car is built on the PM platform, derived from the FM platform used in the Skyline and Nissan Z models. Production is conducted in a shared production line at Nissan's Tochigi plant in Japan</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <h2>The Lexus Concept</h2>
+                <p>
+                With its radar and camera capabilities, this system* features left-turn intersection detection of a pedestrian or vehicle.<br>
+                It can also help detect the vehicle ahead, a preceding bicyclist in daytime, and a preceding pedestrian in daytime and low-light<br>
+                conditions. Should it detect a potential frontal collision, it can help provide steering assistance and can help automatically<br>
+                brake to help mitigate or avoid a collision.
+
+                </p>
+            </div>
+            <div class="col-md-6">
+                <img src="../images/lexus 1.avif" class="img-fluid" alt="Car Image" width="700">
+            </div>
+        </div>
+    </div>
+
+    
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-info">
+                <p>&copy; 2024 Designed by Sanjay. All rights reserved.</p>
+            </div>
+            <div class="footer-links">
+                <a href="privacy.html">Privacy Policy</a> | 
+                <a href="terms.html">Terms of Service</a> | 
+                <a href="contact.html">Contact Us</a>
+            </div>
+            <div class="footer-social">
+                <a href="/https://facebook.com" target="_blank" class="social-link">Facebook</a> |
+                <a href="/https://twitter.com" target="_blank" class="social-link">Twitter</a> |
+                <a href="/https://instagram.com" target="_blank" class="social-link">Instagram</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+

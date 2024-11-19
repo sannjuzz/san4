@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="../css/login.css">
+        <link rel="stylesheet" href="../css/home.css">
+    </head>
+
+
+<body class="hero">
+    <center>
+    <div>
+        <form type="">
+    
+
+<label>Email</label>
+            <input type="email">
+          
+ <label>password</label>
+ 
+ 
+            <input type="password">
+            
+            <input type="reset">
+            
+            <button>submit</button>
+            <button><a href="Navigation.html">home</a></button>
+        
+           
+        </form>
+        </div>
+    </center>
+    <script>
+            
+        let heroBg =document.querySelector('.hero');
+    
+        setInterval(() => {
+           
+           heroBg.style.backgroundImage ="url(../css/bg-light.jpg)"
+           setTimeout(() => {
+            heroBg.style.backgroundImage ="url(../css/bg.jpg)"
+           }, 1000);
+        }, 2000);
+    </script>
+
+</body>
+</html>
+
+

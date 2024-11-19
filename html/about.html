@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+             
+            padding-top: 56px;
+            background: url('../css/bg.jpg');
+           
+            background-repeat: no-repeat;
+            background-size: cover;
+            transition: background-color 0.5s ease;
+        }
+        .about-container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 30px;
+            
+        }
+        .about-section {
+            background-color: black;
+            color: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+        }
+        .about-section:hover {
+            
+            background-color:red; 
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+        .about-section h2 {
+            margin-bottom: 20px;
+        }
+        .about-section p {
+            margin-bottom: 15px;
+        }
+        .about-section img {
+            transition: transform 0.3s ease;
+        }
+        .about-section img:hover {
+            transform: scale(1.04);
+            cursor:pointer;
+        }
+        .team-member {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            transition: transform 0.3s ease; 
+        }
+        .team-member:hover {
+            transform: translateY(-5px); /
+        }
+        .team-member img {
+            border-radius: 50%;
+            margin-right: 15px;
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+        .team-member img:hover {
+            transform: scale(1.05);
+        }
+        .team-member h3 {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container about-container">
+        <div class="about-section">
+            <h2>About Us</h2>
+            <p>Welcome to our website! We are passionate about cars and dedicated to providing the latest information and insights on automotive technology, trends, and innovations. Our team consists of car enthusiasts and industry experts who work tirelessly to bring you the best content.</p>
+            <p>Founded in 2024, our mission is to be the go-to resource for car lovers around the world. We aim to offer detailed reviews, industry news, and exciting updates on the latest car models and technologies.</p>
+        </div>
+
+        <div class="about-section">
+            <h2>Our Mission</h2>
+            <p>Our mission is to educate and inspire car enthusiasts by delivering accurate, up-to-date information about the automotive industry. We strive to provide a platform where users can learn about new cars, technologies, and trends in a comprehensive and engaging way.</p>
+        </div>
+
+        <div class="about-section">
+            <h2>Meet the Team</h2>
+            <div class="team-member">
+                <img src="../images/latham.jpeg" alt="Team Member 1">
+                <div>
+                    <h3>Thomas Latham</h3>
+                    <p>Founder & CEO</p>
+                    <p>Thomas is the visionary behind our platform, with over a decade of experience in the automotive industry. His passion for cars drives the company's mission and values.</p>
+                </div>
+            </div>
+            <div class="team-member">
+                <img src="../images/jamie.jpeg" alt="Team Member 2">
+                <div>
+                    <h3>Jamie Smith</h3>
+                    <p>Editor & Lead Writer</p>
+                    <p>Jamie brings her expertise in automotive journalism to our content. She ensures that all articles are well-researched, accurate, and engaging for our readers.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
